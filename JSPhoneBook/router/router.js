@@ -2,6 +2,7 @@ import {remove_starting_and_ending_slash} from "../utils/removeStartingAndEnding
 import {LoginController} from "../controllers/LoginController.js";
 import {AboutController} from "../controllers/AboutController.js";
 import {WelcomeController} from "../controllers/WelcomeController.js";
+import {UserController} from "../controllers/UserController.js";
 
 export class Router {
     /**
@@ -18,6 +19,7 @@ export class Router {
     static initialize() {
         Router.get("/", [WelcomeController, "index"]);
         Router.get("/login", [LoginController, "index"]);
+        Router.get("/users", [UserController, "index"]);
         Router.get("/about", [AboutController, "index"]);
     }
 }
