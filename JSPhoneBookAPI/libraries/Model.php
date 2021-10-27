@@ -4,7 +4,7 @@ class Model
 {
     protected static $table = "";
 
-    private static function connectDatabase()
+    public static function connectDatabase()
     {
         $mysqli = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD);
         $mysqli->select_db(DB_NAME);

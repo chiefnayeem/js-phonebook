@@ -3,3 +3,7 @@
 
 > To create a server
 	serve -s
+
+
+> To run back-end
+	php -S 127.0.0.1:8080

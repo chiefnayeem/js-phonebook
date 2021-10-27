@@ -7,3 +7,4 @@
 require "./controllers/AboutController.php";
 require "./controllers/UserController.php";
 require "./controllers/ContactController.php";
+require "./controllers/AuthController.php";

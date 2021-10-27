@@ -2,16 +2,16 @@ export const loginFormTemplate = `
     <div class="card" style="width: 18rem;">
         <div class="card-body">
             <a href="/">Go Home</a>
-            <form>
+            <form name="LoginForm">
                 <h3>Login</h3>
                 <div>
                     <b>Username</b><br/>
-                    <input placeholder="username"/>
+                    <input placeholder="username" name="username"/>
                 </div>
                 
                 <div>
                     <b>Password</b><br/>
-                    <input placeholder="password" />
+                    <input placeholder="password" name="password"/>
                 </div>
                 
                 <div>
